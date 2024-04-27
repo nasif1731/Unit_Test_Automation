@@ -1,0 +1,20 @@
+{
+  "name": "mongo_crud_miniproj",
+  "version": "1.0.0",
+  "description": "mini project to demonstrate crud operation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "crud",
+    "mini_project"
+  ],
+  "author": "Aman Prabhat",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
