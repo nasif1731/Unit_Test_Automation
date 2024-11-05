@@ -9,6 +9,7 @@ const insert = async () => {
             prompt("Enter Profile-Contact: ")
         ]; // Collecting data
 
+        // Check if age is not a number
         if (isNaN(data[1])) {
             console.log("Invalid age. Please enter a number.");
             return;
