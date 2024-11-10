@@ -1,7 +1,7 @@
 const dbConnect = require('../fakeDb');
 const fs = require('fs');
 const path = require('path');
-const { parse } = require('csv-parser/sync');
+const { parse } = require('csv-parse/sync');
 const csvFilePath = path.resolve(__dirname, '../csv/profiles.csv');
 
 jest.mock('../fakeDb');

@@ -15,6 +15,7 @@
   "author": "Aman Prabhat",
   "license": "ISC",
   "dependencies": {
+    "csv-parse": "^5.5.6",
     "csv-parser": "^3.0.0",
     "mongodb": "^6.5.0",
     "prompt-sync": "^4.2.0"
